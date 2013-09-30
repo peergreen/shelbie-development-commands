@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright 2013 Peergreen S.A.S. All rights reserved.
+ Proprietary and confidential.
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<ipojo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="org.apache.felix.ipojo"
+       xsi:schemaLocation="org.apache.felix.ipojo http://felix.apache.org/ipojo/schemas/1.6.0/core.xsd
+                           org.ow2.shelbie http://shelbie.ow2.org/xmlns/2.0.0/shell-command.xsd">
+
+  <command-instance xmlns="org.ow2.shelbie"
+                    action="com.peergreen.shelbie.dev.internal.PackagesAction" />
+
+  <command-instance xmlns="org.ow2.shelbie"
+                    action="com.peergreen.shelbie.dev.internal.ConflictingPackagesAction" />
+
+</ipojo>
